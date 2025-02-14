@@ -142,7 +142,7 @@ The server will respond with a result message to indicate that the subscription 
 }
 ```
 
-For each event that matches, the server will send a message of type `event`. The `id` in the message will point at the original `id` of the `listen_event` command.
+For each event that matches, the server will send a message of type `event`. The `id` in the message will point at the original `id` of the `subscribe_events` command.
 
 ```json
 {
